@@ -3,7 +3,7 @@
     "displayName": "rust-go-classic-eclipse-color-theme",
     "publisher": "growingspaghetti",
     "description": "A light theme that uses the classic Eclipse colors. Nothing special. This theme supports Rust and Go tokens.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.52.0"
     },

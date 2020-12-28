@@ -9,3 +9,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.0] - 2020-12-28
 ### Added
  - the theme file "rust-go-classic-eclipse-color-theme-color-theme.json"
+
+## [1.0.1] - 2020-12-28
+### Changed
+ - Fix invalid.illegal.receive-channel.go was using a bold type face.

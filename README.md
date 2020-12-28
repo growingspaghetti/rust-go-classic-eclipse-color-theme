@@ -31,3 +31,13 @@ The colors can be overwritten by adding items in settings.json.
 },
 ```
 The scopes are found in this file. https://github.com/growingspaghetti/rust-go-classic-eclipse-color-theme/blob/master/themes/rust-go-classic-eclipse-color-theme-color-theme.json
+
+## My personal font recommendation
+ - https://github.com/i-tu/Hasklig
+ - http://ftp.gnu.org/gnu/freefont/
+
+```
+    "editor.fontFamily": "Hasklig",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "FreeMono",
+```

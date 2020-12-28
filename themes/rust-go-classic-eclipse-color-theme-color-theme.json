@@ -1067,7 +1067,7 @@
 			"scope": "invalid.illegal.receive-channel.go",
 			"settings": {
 				"foreground": "#FF0000",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{

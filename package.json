@@ -1,0 +1,21 @@
+{
+    "name": "rust-go-classic-eclipse-color-theme",
+    "displayName": "rust-go-classic-eclipse-color-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "rust-go-classic-eclipse-color-theme",
+                "uiTheme": "vs",
+                "path": "./themes/rust-go-classic-eclipse-color-theme-color-theme.json"
+            }
+        ]
+    }
+}

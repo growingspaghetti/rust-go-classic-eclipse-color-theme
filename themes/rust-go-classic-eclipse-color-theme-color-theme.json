@@ -1043,6 +1043,246 @@
 				"fontStyle": ""
 			}
 		},
+		{
+			//pub
+			"scope": "storage.modifier.visibility.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			//<u64>
+			"scope": "entity.name.type.param.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			//parse::
+			"scope": "entity.name.type.mod.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			//mut
+			"scope": "storage.modifier.mutable.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			//mut counter
+			"scope": "variable.other.mutable.rust",
+			"settings": {
+				"foreground": "#0000C0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			//str
+			"scope": "storage.type.core.rust",
+			"settings": {
+				"foreground": "#646464",
+				"fontStyle": ""
+			}
+		},
+		{
+			//String
+			"scope": "storage.class.std.rust",
+			"settings": {
+				"foreground": "#646464",
+				"fontStyle": ""
+			}
+		},
+		{
+			//&
+			"scope": "keyword.operator.sigil.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			//fn
+			"scope": "storage.type.function.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			//map(|v|
+			"scope": "variable.other.map.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// v }
+			"scope": "variable.other.return-value.rust",
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			// as
+			"scope": "keyword.other.as.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			// &reference_of_variable
+			"scope": "variable.other.ref.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// "{:?}"
+			"scope": "constant.other.placeholder.rust",
+			"settings": {
+				"foreground": "#3F7F5F",
+				"fontStyle": ""
+			}
+		},
+		{
+			// Some
+			"scope": "support.constant.core.rust",
+			"settings": {
+				"foreground": "#1948A6",
+				"fontStyle": ""
+			}
+		},
+		{
+			// where
+			"scope": "keyword.other.where.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			// T
+			"scope": "entity.name.type.generic.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// const
+			"scope": "storage.modifier.const.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			// 'static
+			"scope": "entity.name.lifetime.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			// println!
+			"scope": "support.function.std.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// assert_eq!
+			"scope": "support.function.core.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// macro_rules!
+			"scope": "support.function.builtin.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// ()
+			"scope": "punctuation.other.paren.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// \n
+			"scope": "constant.character.escape.rust",
+			"settings": {
+				"foreground": "#1948A6",
+				"fontStyle": ""
+			}
+		},
+		{
+			// mod
+			"scope": "storage.type.module.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			// calc_module
+			"scope": "entity.name.type.module.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// + %
+			"scope": "keyword.operator.arithmetic.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// true
+			"scope": "constant.language.boolean.rust",
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
+			// _
+			"scope": "variable.language.ignored.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// Hashmap
+			"scope": "entity.name.type.hashmap.rust",
+			"settings": {
+				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
 		// ----------------------------------------------
 		//  Go
 		// ----------------------------------------------
@@ -1488,7 +1728,7 @@
 			//"match": "%(\\[\\d+\\])?([\\+#\\-0\\x20]{,2}((\\d+|\\*)?(\\.?(\\d+|\\*|(\\[\\d+\\])\\*?)?(\\[\\d+\\])?)?))?[vT%tbcdoqxXUbeEfFgGspw]",
 			"scope": "constant.other.placeholder.go",
 			"settings": {
-				"foreground": "#323232",
+				"foreground": "#3F7F5F",
 				"fontStyle": ""
 			}
 		},

@@ -13,3 +13,41 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.1] - 2020-12-28
 ### Changed
  - Fix invalid.illegal.receive-channel.go was using a bold type face.
+
+## [1.1.0] - 2020-12-30
+### Added
+ - Following scopes that seem to be newly introduced are now supported.
+```
+"scope": "storage.modifier.visibility.rust",
+"scope": "entity.name.type.param.rust",
+"scope": "entity.name.type.mod.rust",
+"scope": "storage.modifier.mutable.rust",
+"scope": "variable.other.mutable.rust",
+"scope": "storage.type.core.rust",
+"scope": "storage.class.std.rust",
+"scope": "keyword.operator.sigil.rust",
+"scope": "storage.type.function.rust",
+"scope": "variable.other.map.rust",
+"scope": "variable.other.return-value.rust",
+"scope": "keyword.other.as.rust",
+"scope": "variable.other.ref.rust",
+"scope": "constant.other.placeholder.rust",
+"scope": "support.constant.core.rust",
+"scope": "keyword.other.where.rust",
+"scope": "entity.name.type.generic.rust",
+"scope": "storage.modifier.const.rust",
+"scope": "entity.name.lifetime.rust",
+"scope": "support.function.std.rust",
+"scope": "support.function.core.rust",
+"scope": "support.function.builtin.rust",
+"scope": "punctuation.other.paren.rust",
+"scope": "constant.character.escape.rust",
+"scope": "storage.type.module.rust",
+"scope": "entity.name.type.module.rust",
+"scope": "keyword.operator.arithmetic.rust",
+"scope": "constant.language.boolean.rust",
+"scope": "variable.language.ignored.rust",
+"scope": "entity.name.type.hashmap.rust"
+```
+### Changed
+ - Fix constant.other.placeholder.go was set to be black instead of green.

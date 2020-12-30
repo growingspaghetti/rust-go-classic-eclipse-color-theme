@@ -51,3 +51,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ```
 ### Changed
  - Fix constant.other.placeholder.go was set to be black instead of green.
+
+## [1.2.0] - 2020-12-31
+### Added
+ - Optional color theme that supports python and typescript in addition.

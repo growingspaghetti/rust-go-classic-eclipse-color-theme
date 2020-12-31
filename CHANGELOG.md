@@ -55,3 +55,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.2.0] - 2020-12-31
 ### Added
  - Optional color theme that supports python and typescript in addition.
+### Added
+ - Fix "keyword.control.fn.rust"
+### Changed
+ - Fix "variable.other.metavariable.specifier.rust"
+ - Fix "keyword.operator.dereference.rust"

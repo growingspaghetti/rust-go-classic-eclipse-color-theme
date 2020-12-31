@@ -508,10 +508,11 @@
 			}
 		},
 		{
+			// ident, tt
 			// "match": "(\\$)((crate)|([A-Z][A-Za-z0-9_]*))((:)(block|expr|ident|item|lifetime|literal|meta|path?|stmt|tt|ty|vis))?",
 			"scope": "variable.other.metavariable.specifier.rust",
 			"settings": {
-				"foreground": "#7F0055",
+				"foreground": "#646464",
 				"fontStyle": ""
 			}
 		},
@@ -839,7 +840,7 @@
 			// "match": "(\\*)(?=\\w+)",
 			"scope": "keyword.operator.dereference.rust",
 			"settings": {
-				"foreground": "#323232",
+				"foreground": "#7F0055",
 				"fontStyle": ""
 			}
 		},
@@ -1280,6 +1281,14 @@
 			"scope": "entity.name.type.hashmap.rust",
 			"settings": {
 				"foreground": "#323232",
+				"fontStyle": ""
+			}
+		},
+		{
+			// fn
+			"scope": "keyword.control.fn.rust",
+			"settings": {
+				"foreground": "#7F0055",
 				"fontStyle": ""
 			}
 		},

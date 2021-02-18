@@ -1675,7 +1675,7 @@
 			//"match": "(\\+|\\-|\\*|/|%)",
 			"scope": "keyword.operator.arithmetic.go",
 			"settings": {
-				"foreground": "#323232",
+				"foreground": "#7F0055",
 				"fontStyle": ""
 			}
 		},

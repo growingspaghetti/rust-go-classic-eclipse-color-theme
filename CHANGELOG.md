@@ -60,3 +60,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
  - Fix "variable.other.metavariable.specifier.rust"
  - Fix "keyword.operator.dereference.rust"
+
+## [1.2.1] - 2021-02-18
+### Changed
+ - Modified "keyword.operator.arithmetic.go" from black to purple

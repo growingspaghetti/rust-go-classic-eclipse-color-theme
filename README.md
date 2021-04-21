@@ -41,3 +41,23 @@ The scopes are found in this file. https://github.com/growingspaghetti/rust-go-c
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "FreeMono",
 ```
+
+![screenshot-let](https://github.com/growingspaghetti/rust-go-classic-eclipse-color-theme/raw/master/let-independent.png)
+
+```
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+                "punctuation.brackets.curly.rust",
+                "keyword.other.let.rust",
+                "keyword.other.pub.rust"
+            ],
+            "settings": {
+                "foreground": "#ffe600",
+                "fontStyle": ""
+            }
+        },
+    ]
+},
+```

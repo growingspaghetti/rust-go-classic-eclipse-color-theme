@@ -64,3 +64,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.2.1] - 2021-02-18
 ### Changed
  - Modified "keyword.operator.arithmetic.go" from black to purple
+
+## [1.3.0] - 2021-04-21
+### Changed
+ - let and pub key word are now keyword.other.let.rust and keyword.other.pub.rust

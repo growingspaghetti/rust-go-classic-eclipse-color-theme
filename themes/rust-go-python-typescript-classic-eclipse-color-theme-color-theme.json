@@ -725,6 +725,17 @@
 			}
 		},
 		{
+			// "let", "pub"
+			"scope": [
+				"keyword.other.let.rust",
+				"keyword.other.pub.rust"
+			],
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": ""
+			}
+		},
+		{
 			// "abc()",
 			"scope": "entity.name.function.rust",
 			"settings": {

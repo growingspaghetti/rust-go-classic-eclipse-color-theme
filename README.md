@@ -58,6 +58,17 @@ The scopes are found in this file. https://github.com/growingspaghetti/rust-go-c
                 "fontStyle": ""
             }
         },
+        {
+            "scope": [
+                "constant.numeric",
+                "constant.numeric.decimal.go",
+            ],
+            "settings": {
+                "foreground": "#ba4f37"
+            }
+        },
     ]
 },
 ```
+
+For other languages, [uloco.theme-bluloco-light](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light) looks amazing for me.

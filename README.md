@@ -58,15 +58,6 @@ The scopes are found in this file. https://github.com/growingspaghetti/rust-go-c
                 "fontStyle": ""
             }
         },
-        {
-            "scope": [
-                "constant.numeric",
-                "constant.numeric.decimal.go",
-            ],
-            "settings": {
-                "foreground": "#ba4f37"
-            }
-        },
     ]
 },
 ```

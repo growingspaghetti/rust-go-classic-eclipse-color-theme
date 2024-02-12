@@ -57,9 +57,14 @@ The scopes are found in this file. https://github.com/growingspaghetti/rust-go-c
                 "foreground": "#ffe600",
                 "fontStyle": ""
             }
-        },
+        }
     ]
 },
 ```
 
-For other languages, [uloco.theme-bluloco-light](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light) looks amazing for me.
+For other languages, [uloco.theme-bluloco-light](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light) looks amazing to me.
+
+## dev
+```
+vsce package --no-dependencies
+```

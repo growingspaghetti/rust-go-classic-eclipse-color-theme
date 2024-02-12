@@ -35,7 +35,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "github.com/growingspaghetti/rust-go-classic-eclipse-color-theme"
+        "url": "https://github.com/growingspaghetti/rust-go-classic-eclipse-color-theme.git"
     },
     "icon": "icon.png"
 }
